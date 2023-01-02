@@ -324,17 +324,15 @@
 						</li>
 					</ul>
 				</div>
-				<div class="footer-subscribe">
+				<div class="subscribe-box">
+					<p class="subscribe-heading">Subscribe</p>
 					<form name="footer-subscribe-form">
-						<label class="footer-subscribe-label"
-							>Subscribe<br />
-							<input type="email" name="email" placeholder="E-mail" class="email-input" />
-						</label>
+						<input type="email" name="email" placeholder="E-mail" class="email-input" />
+						<button type="submit" class="email-submit">
+							<span class="subscribe-on-button">Subscribe</span>
+							<svg class="icon-send" width="24" height="24"><use href="./images/icons.svg#icon-icon-send"></use></svg>
+						</button>
 					</form>
-					<button type="submit" class="email-submit"
-						><span class="subscribe-text">Subscribe</span>
-						<svg class="icon-send" width="24" height="24"><use href="./images/icons.svg#icon-icon-send"></use></svg>
-					</button>
 				</div>
 			</div>
 		</footer>
@@ -387,7 +385,9 @@
 					<div class="form-field">
 						<input id="checkbox" type="checkbox" name="user_policy" class="modal-input-checkbox visually-hidden" />
 						<label for="checkbox" class="modal-label-checkbox"
-							>I accept the terms and conditions of the &nbsp;<a href="">Privacy Policy</a></label
+							>I accept the terms and conditions of the &nbsp;<a class="privacy-policy" href=""
+								>Privacy Policy</a
+							></label
 						></div
 					>
 					<button type="submit" class="submit-btn">Send</button>
